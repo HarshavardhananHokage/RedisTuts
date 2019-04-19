@@ -1,0 +1,28 @@
+{
+  "name": "redistuts",
+  "version": "1.0.0",
+  "description": "Redis Tutorial using Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshavardhananHokage/RedisTuts.git"
+  },
+  "author": "Harshavardhanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshavardhananHokage/RedisTuts/issues"
+  },
+  "homepage": "https://github.com/HarshavardhananHokage/RedisTuts#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "method-override": "^3.0.0",
+    "redis": "^2.8.0"
+  }
+}
